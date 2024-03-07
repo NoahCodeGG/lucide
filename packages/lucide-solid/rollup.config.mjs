@@ -113,7 +113,7 @@ const configs = bundles
               exports: 'auto',
             }
           : {
-              file: `${outputDir}/${format}/${outputFileName}.js`,
+              file: `${outputDir}/${format}/${outputFileName}.jsx`,
             }),
         format: format === 'source' ? 'esm' : format,
         preserveModules,
